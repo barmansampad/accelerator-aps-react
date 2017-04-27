@@ -1,0 +1,8 @@
+test:
+  pre:
+    - npm run lint
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: accelerator-aps
